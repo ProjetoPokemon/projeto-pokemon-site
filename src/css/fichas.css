@@ -1,0 +1,57 @@
+#main {
+    height: 95%;
+    width: 100%;
+    padding: 1rem;
+}
+
+#topo {
+    height: 10%;
+    width: 100%;
+}
+
+#personagem {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#personagem .barra {
+    background-color: #0885de;
+    color: white;
+    height: 1rem;
+    margin-bottom: .5rem;
+}
+
+.conteudo {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.conteudo__esquerda {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+}
+
+.campo input {
+    border: none;
+    border-bottom: #0885de 2px solid;
+}
+
+.campo label {
+    font-size: 1.5rem;
+}
+
+.conteudo__direita {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

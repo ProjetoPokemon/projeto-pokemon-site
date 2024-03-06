@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/index.css">
+    <link rel="stylesheet" href="./src/css/fichas.css">
+    <title>Projeto Pokemon Site - Fichas</title>
+</head>
+<body>
+    <div id="root">
+        <header id="header">
+            <div id="logo">
+                <img src="./src/img/logo.png" alt="Pokemon Logo">
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a class="vt323-regular" href="index.html">Home</a></li>
+                    <li><a class="ativo vt323-regular" href="fichas.html">Fichas</a></li>
+                    <li><a class="vt323-regular" href="matinhoRandomizer.html">Randomizador de Matinho</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="main">
+            <section id="topo">
+                <div id="personagem">
+                    <div class="barra">Pokemon - Ficha do Personagem</div>
+                    <div class="conteudo">
+                        <div class="conteudo__esquerda">
+                            <div class="campo">
+                                <input type="text" name="nome" id="nome">
+                                <label class="vt323-regular" for="nome">Nome do personagem</label>
+                            </div>
+                            <div class="campo">
+                                <input type="text" name="sexo" id="sexo">
+                                <label class="vt323-regular" for="sexo">Sexo</label>
+                            </div>
+                            <div class="campo">
+                                <input type="number" name="idade" id="idade">
+                                <label class="vt323-regular" for="idade">Idade</label>
+                            </div>
+                            <div class="campo">
+                                <input type="text" name="altura" id="altura">
+                                <label class="vt323-regular" for="altura">Altura</label>
+                            </div>
+                            <div class="campo">
+                                <input type="text" name="peso" id="peso">
+                                <label class="vt323-regular" for="peso">Peso</label>
+                            </div>
+                            <div class="campo">
+                                <input type="text" name="conceito" id="conceito">
+                                <label class="vt323-regular" for="conceito">Conceito</label>
+                            </div>
+                            <div class="campo">
+                                <input type="text" name="cidade" id="cidade">
+                                <label class="vt323-regular" for="cidade">Cidade Origem</label>
+                            </div>
+                            <div class="campo">
+                                <input type="text" name="idiomas" id="idiomas">
+                                <label class="vt323-regular" for="idiomas">Idiomas</label>
+                            </div>
+                            <div class="campo">
+                                <input type="text" name="nome__jogador" id="nome__jogador">
+                                <label class="vt323-regular" for="nome__jogador">Nome do Jogador</label>
+                            </div>
+                        </div>
+                        <div class="conteudo__direita">
+                            <div id="hp__wrapper">
+                                <input type="number" name="hp" id="hp">
+                                <label class="vt323-regular" for="hp">HP</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="base"></section>
+        </main>
+    </div>
+</body>
+</html>
